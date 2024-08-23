@@ -1,0 +1,15 @@
+nav{
+  height: 50px;
+  background-color: yellow;
+}
+nav > ul{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 0;
+  list-style-type: none;
+  font-size: 20px;
+}
+a{
+  text-decoration: none;
+}
