@@ -5,7 +5,7 @@ const NewRQ = () => {
     const {data,isError,isLoading,error} = useQuery({
         queryKey:['demo'],
         queryFn : foo,
-         
+        staleTime:5000,  // it will make the query/result fresh for time being and will not do refetching until 5s
     })
 
     async function foo(){
